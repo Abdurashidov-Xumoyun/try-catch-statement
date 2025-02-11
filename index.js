@@ -7,7 +7,7 @@ function numFilter() {
   ellError.style.color = "red";
   try {
     if (value === 0) {
-      throw "biron son kritishingiz mumkin"
+      throw `biron son kritishingiz mumkin va u "0" da farqli bo'lsin`
     }
     if (value < 5) {
       throw "5 dan kichik son kritdingiz";
